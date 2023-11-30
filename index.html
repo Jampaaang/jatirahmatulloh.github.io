@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyPortfolio | Jati Rahmatulloh</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow position-sticky z-3 top-0" style="background-color: #776B5D">
+      <div class="container">
+        <img class="rounded-4 d-inline-block align-text-top" src="Logo web 1.jpg" style="width: 50px" />
+        <a class="navbar-brand" href="#scrollspyHeading1">Jati Rahmatulloh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading3">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0"></div>
+    <!-- Navbar akhir -->
+
+    <!-- Profil awal -->
+    <div id="scrollspyHeading1" class="container-fluid text-center p-5 text-light" style="background: #B0A695">
+      <div class="row">
+        <div class="col mt-4 text-center">
+          <img src="profil.jpg" style="width: 300px" />
+        </div>
+        <div>
+          <h1 id="Nama">Nama : Jati Rahmatulloh</h1>
+          <h5>Tempat/Tanggal Lahir : Jakarta 25-06-2003</h5>
+          <h5>Pekerjaan : Mahasiswa</h5>
+        </div>
+      </div>
+    </div>
+    <!-- Profil akhir -->
+
+    <!-- About awal -->
+    <div id="scrollspyHeading2" class="container-fluid text-center p-4 text-light" style="background: #776B5D">
+      <h2 class="text-start mt-4">About Me</h2>
+      <div class="row">
+        <div class="col text-start mt-4">
+          <p>
+            Saya adalah Mahasiswa di Universitas Pancasila, Saya masuk ke Fakultas Teknik Informatika pada tahun 2022/2023. Alasan saya mengambil jurusan Teknik Informatika karena saya tertarik pada bidang software dan hardware pada
+            komputer, dan saya ingin memperdalam ilmu pengetahuan saya pada bidang tersebut.
+          </p>
+        </div>
+        <div class="col text-center mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- About akhir -->
+
+    <!-- Portofolio Awal -->
+    <div id="scrollspyHeading3" class="container-fluid p-4" style="background-color: #B0A695">
+      <h2 class="text-center text-light mt-4">Matakuliah (Sedang Dipelajari & Selesai Dipelajari)</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center p-3 fw-bold">
+          <div class="carousel-item active">
+            <img src="Alpro.jpg" class="d-block w-100 rounded-4" alt="images 1" />
+            <div class="carousel-caption d-none d-md-block text-white rounded-5" style="background-color: #776B5D">
+              <h4>Matakuliah : Algoritma dan Pemrograman</h4>
+              <p>Selesai Dipelajari (Semester 1)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Asd.jpeg" class="d-block w-100 rounded-4" alt="images 2" />
+            <div class="carousel-caption d-none d-md-block text-white rounded-5" style="background-color: #776B5D">
+              <h4>Matakuliah : Algoritma dan Struktur Data</h4>
+              <p>Selesai Dipelajari (Semester 2)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Pbo.jpg" class="d-block w-100 rounded-4" alt="images 3" />
+            <div class="carousel-caption d-none d-md-block text-white rounded-5" style="background-color: #776B5D">
+              <h4>Matakuliah : Pemrograman Berorientasi Objek</h4>
+              <p>Selesai Dipelajari (Semester 3)</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="card1" class="card d-block d-md-none" style="width: 18rem;">
+      <img src="Alpro.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> 
+          <h4>Matakuliah : Algoritma dan Pemrograman</h4>
+          <p>Selesai Dipelajari (Semester 1)</p>
+      </div>
+    </div>
+    <div id="card2" class="card d-block d-md-none" style="width: 18rem;">
+      <img src="Asd.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> 
+          <h4>Matakuliah : Algoritma dan Struktur Data</h4>
+          <p>Selesai Dipelajari (Semester 2)</p>
+      </div>
+    </div>
+    <div id="card3" class="card d-block d-md-none" style="width: 18rem;">
+      <img src="Pbo.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> 
+          <h4>Matakuliah : Pemrograman Berorientasi Objek</h4>
+          <p>Selesai Dipelajari (Semester 3)</p>
+      </div>
+    </div>
+    <!-- Portofolio Akhir -->
+
+    <!-- Contact Awal -->
+    <div id="scrollspyHeading4" class="container-fluid p-5" style="background: #B0A695">
+      <div class="container w-75 text-center p-3 rounded-4" style="background-color: #776B5D">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-light">Kirim Pesan/Masukan Untuk Saya</h2>
+            <form class="mt-4">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Alamat Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingText" placeholder="Name" />
+                <label for="floatingText">Nama</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Pesan</label>
+              </div>
+              <div class="mb-3 form-check text-light text-start">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Setuju Untuk Mengirim</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Akhir -->
+
+    <!-- Footer Awal -->
+    <footer>
+      <div class="container-fluid text-center p-5" style="background: #776B5D">
+        <div>
+            <h4 class="text-center m-4 text-light">Media Sosial</h4>
+            <div class="container-fluid d-flex align-items-stretch justify-content-center text-light">
+              <a id="link1" class="icon-link text-light" href="https://www.instagram.com/jati_rth/?hl=en">
+                Instagram 
+                <img src="Instagram-Logo.wine.svg" alt="Instagram" style="width: 47px" />
+              </a>
+              <a id="link1" class="icon-link text-light" href="https://www.tiktok.com/@jampaaang">
+                Tiktok
+                <img src="tiktok-svgrepo-com.svg" alt="Tiktok" style="width: 29px" />
+              </a>
+              <a id="link1" class="icon-link text-light" href="https://github.com/Jampaaang">
+                Github
+                <img src="github-svgrepo-com.svg" alt="Github" style="width: 29px" />
+              </a>
+        </div>
+      </div>
+  </footer>
+    <!-- Footer Akhir -->
+
+    <!-- Script boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
